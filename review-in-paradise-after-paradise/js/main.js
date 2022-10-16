@@ -3,14 +3,15 @@
 //If they are equal, alert "We close in an hour"
 
 function closeInHour(array){
-    compare = array[0] < array[array.length - 1]
+    
+    
 
-    if (compare){
+    if (array[0] < array[array.length - 1]){
         alert('Hi')
-    }else if(!compare){
+    }else if(array[0] < array[array.length - 1]){
         alert('Bye')
     }else{
         alert('We close in an hour')
     }
 }
-closeInHour([80,5,6,32,54,67,7,22,56,70])
+closeInHour([70,5,6,32,54,67,7,22,56,70])
